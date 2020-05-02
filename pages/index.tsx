@@ -5,8 +5,8 @@ const IndexPage = () => (
   <LandingLayout title="My Portfolio | React + TypeScript + Storybook example">
     <h1>My Portfolio</h1>
     <p>
-      <Link href="/account">
-        <a>Go to account</a>
+      <Link href="/dashboard">
+        <a>Go to dashboard</a>
       </Link>
     </p>
   </LandingLayout>

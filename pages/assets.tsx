@@ -7,8 +7,8 @@ const AssetsPage: React.FunctionComponent = () => (
     <h1>Assets</h1>
     <p>This is the assets page</p>
     <p>
-      <Link href="/dashboard">
-        <a>Go dashboard</a>
+      <Link href="/">
+        <a>Go Home</a>
       </Link>
     </p>
   </Layout>

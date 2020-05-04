@@ -13,3 +13,26 @@ export type Category = {
   id: number
   name: string
 }
+
+export type Currency = {
+  symbol: string
+  name: string
+}
+
+export type Price = {
+  currency: Currency
+  value: number
+}
+
+export type epoch = number
+
+export type OperationType = 'buy' | 'sell' | 'deposit' | 'withdraw'
+
+export type Operation = {
+  id: number
+  date: epoch
+  type: OperationType
+  ticker: string
+  quantity: number
+  price: Price
+ }
